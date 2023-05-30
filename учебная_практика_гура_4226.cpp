@@ -17,7 +17,7 @@ enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN };
 eDirection dir;
 int level;
 
-void Start()
+void Start() //функция для начального меню
 {
     //вывод надписи "ЗМЕЙКА"
     for (int p = -1; p < 8; p++) {
@@ -65,7 +65,7 @@ void Start()
     std::cin >> level;
 }
 
-void Setup()
+void Setup() // инициализация переменных
 {
     gameOver = false;
     dir = STOP;
@@ -79,7 +79,7 @@ void Setup()
     score = 0;
 }
 
-void Draw_1_Level()
+void Draw_1_Level() // функция отрисовки поля, змейки, денег, бомб и вывода мотивационных фраз для легкого режима игры
 {
     system("cls");
     for (int i = 0; i < width + 2; i++)
@@ -134,7 +134,7 @@ void Draw_1_Level()
 }
 
 
-void Draw_2_Level()
+void Draw_2_Level() // функция отрисовки поля, преград, змейки, денег, бомб и вывода мотивационных фраз для сложного режима игры
 {
     system("cls");
     for (int i = 0; i < width + 2; i++)
@@ -195,7 +195,7 @@ void Draw_2_Level()
 }
 
 
-void Input()
+void Input() // идентификация нажатия клавиш
 {
     if (_kbhit())
     {
@@ -225,7 +225,7 @@ void Input()
 }
 
 
-void Logic_1_Level() {
+void Logic_1_Level() { // функция логики игры в легком режиме
 
     int prevX = tailX[0];
     int prevY = tailY[0];
@@ -284,7 +284,7 @@ void Logic_1_Level() {
     }
 }
 
-void Logic_2_Level() {
+void Logic_2_Level() { // функция логики игры в сложном режиме
     int prevX = tailX[0];
     int prevY = tailY[0];
     int prev2X, prev2Y;
@@ -345,7 +345,7 @@ void Logic_2_Level() {
     }
 }
 
-int main()
+int main() // основная функция
 {
     setlocale(LC_ALL, "ru");
     srand(time(0));
