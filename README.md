@@ -20,4 +20,4 @@ Cобрать как можно больше денег, передвигаяс�
 |\| или _ |0|o|$|@
 
 
-![alt text](https://github.com/AriGasper/Zmeika_Gura/edit/master/README.md)
+![alt text](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20225358.png)
