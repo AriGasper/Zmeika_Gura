@@ -19,10 +19,10 @@ Cобрать как можно больше денег, передвигаяс�
 :-----|:----------:|:------------:|:-----:|:-----:
 |\| или _ |0|o|$|@
 
-
-![1st window](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20225358.png)
 ## Начальное меню
-![1st level](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20232650.png)
+![1st window](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20225358.png)
 ## Легкий уровень
+![1st level](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20232650.png)
+## Сложный уровень
 ![2nd level](https://github.com/AriGasper/Zmeika_Gura/blob/master/Снимок%20экрана%202023-05-30%20232747.png)
-Сложный уровень
+
